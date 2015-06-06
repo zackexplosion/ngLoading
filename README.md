@@ -4,71 +4,75 @@ A simple angualrjs http loading effect. It displays the following image when wai
 
 ![](http://i.imgur.com/OzH16jz.gif)
 
-## installation
+## Installation
 
 #### via bower
+
+Run
 
 ```
 bower install zackexplosion-ngLoading
 ```
 
-in your angular module
+in your angular module.
 
 #### via rails-assets
 
+Add the following to `Gemfile`:
+
+```ruby
 source 'https://rails-assets.org' do
   gem 'rails-assets-zackexplosion-ngLoading'
 end
-
-in application.js
-
 ```
+
+Run `bundle` to install after that.
+
+Then add in `application.js`:
+
+```javascript
 //= require zackexplosion-ngLoading
 ```
 
-in application.css.scss
+Add in `application.css.scss`:
 
-```
+```scss
 @import "zackexplosion-ngLoading";
 ```
 
+Inject the dependency in your angular module:
 
-remember the injection
-
-```
+```javascript
 angular
 .module('blog', [
     'zackexplosion-ngLoading',
 ])
 ```
 
-put this tag in your root html file, after body tag
+And add the following tag in your root html template, right after body tag
 
-```
+```html
 <body>
-<div id="zackexplosion-ng-loading" data-ng-show="zackexplosion_loading" class="whirly-loader">Loading…</div>
-  
-  
-  
-....
+<div id="zackexplosion-ng-loading" data-ng-show="zackexplosion_loading" class="whirly-loader">
+  Loading…
+</div>
 ...
-
 ```
 
+## Contribute
 
+Fork & clone the project, and run the following commands in the project directory:
 
-
-## development
 ```
 npm install
 ```
+
+and
 
 ```
 gulp
 ```
 
+after which, open `http://localhost:8080/` in your browser.
 
-then , open the bower with `http://localhost:8080/`
-
-
-just try to edit the *sass/zackexplosion.ng-loading.scss* !
+Edit `sass/zackexplosion.ng-loading.scss` for different styling!
