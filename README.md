@@ -1,12 +1,12 @@
 # zackexplosion.ng-loading
 
-simple angualrjs http loading effect
+A simple angualrjs http loading effect. It displays the following image when waiting for ajax.
 
-![](http://i.imgur.com/OzH16jz.gifv)
+![](http://i.imgur.com/OzH16jz.gif)
 
 ## installation
 
-### via bower
+#### via bower
 
 ```
 bower install zackexplosion-ngLoading
@@ -14,8 +14,7 @@ bower install zackexplosion-ngLoading
 
 in your angular module
 
-
-### via rails-assets
+#### via rails-assets
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-zackexplosion-ngLoading'
