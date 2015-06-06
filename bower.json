@@ -1,0 +1,25 @@
+{
+  "name": "zaexplosion.loading",
+  "version": "1.0.0",
+  "authors": [
+    "Tony's Hackintosh <cstony0917@gmail.com>"
+  ],
+  "main": [
+    'js/'
+  ],
+  "description": "an angularjs http loading effect",
+  "keywords": [
+    "angualrjs",
+    "http",
+    "loading"
+  ],
+  "license": "MIT",
+  "homepage": "http://zackexplosion.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
