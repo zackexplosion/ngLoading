@@ -7,3 +7,12 @@ simple angualrjs http loading effect
 ```
 npm install
 ```
+
+
+and 
+
+```
+gulp
+```
+
+then , just try to edit the *sass/zackexplosion.ng-loading.scss* !
