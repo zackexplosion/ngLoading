@@ -4,13 +4,35 @@ simple angualrjs http loading effect
 
 ## installation
 
-via bower
+### via bower
 
 ```
 bower install zackexplosion-ngLoading
 ```
 
 in your angular module
+
+
+### rails-assets
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-zackexplosion-ngLoading'
+end
+
+in application.js
+
+```
+//= require zackexplosion-ngLoading
+```
+
+in application.css.scss
+
+```
+@import "zackexplosion-ngLoading";
+```
+
+
+remember the injection
 
 ```
 angular
