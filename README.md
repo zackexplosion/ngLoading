@@ -2,8 +2,37 @@
 simple angualrjs http loading effect
 
 
-# how to use
+## installation
 
+via bower
+
+```
+bower install zackexplosion-ngLoading
+```
+
+in your angular module
+
+```
+angular
+.module('blog', [
+    'zackexplosion-ngLoading',
+])
+```
+
+put this tag in your root html file, after body tag
+
+```
+<body>
+<div id="loading" data-ng-show="loading" class="whirly-loader">Loading…</div>
+....
+...
+
+```
+
+
+
+
+## development
 ```
 npm install
 ```
