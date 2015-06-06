@@ -1,4 +1,4 @@
-# zackexplosion.ng-loading
+# zackexplosion-ngLoading
 
 A simple angualrjs http loading effect. It displays the following image when waiting for ajax.
 
