@@ -1,6 +1,6 @@
 {
   "name": "zackexplosion-ngLoading",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "authors": [
     "Tony's Hackintosh <cstony0917@gmail.com>"
   ],
@@ -15,7 +15,7 @@
     "loading"
   ],
   "license": "MIT",
-  "homepage": "http://zackexplosion.com",
+  "homepage": "http://zackexplosion.github.io/ngLoading/",
   "ignore": [
     "**/.*",
     "node_modules",
