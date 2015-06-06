@@ -8,15 +8,15 @@ function($locationProvider,   $httpProvider) {
 .factory('LoadingInterceptor', 
 [       '$rootScope', 
 function($rootScope){
-    $rootScope.loading = true;
-
+    // assume there is something ajax request so the default is true
+    $rootScope.zackexplosion_loading = true;
     return {
         'request': function(config) {
-            $rootScope.loading = true;
+            $rootScope.zackexplosion_loading = true;
             return config;
         },
         'response': function(response) {
-            $rootScope.loading = false;
+            $rootScope.zackexplosion_loading = false;
             return response;
         }
     };

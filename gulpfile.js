@@ -8,13 +8,23 @@ gulp.task('compass', function() {
       css: 'css',
       sass: 'sass'
     }))
-    .pipe(gulp.dest('app/assets/temp'))
+    // .pipe(gulp.dest('app/assets/temp'))
     .pipe(connect.reload());
 });
 
+gulp.task('html', function () {
+  gulp.src('*.html')
+    .pipe(connect.reload());
+});
+
+gulp.task('reload', function () {
+  connect.reload();
+});
 
 gulp.task('watch', function () {
   gulp.watch(['./sass/*.scss'], ['compass']);
+  gulp.watch(['*.html'], ['html']);
+  gulp.watch(['js/*'], ['reload']);
 });
 
 
