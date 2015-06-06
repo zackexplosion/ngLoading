@@ -1,6 +1,8 @@
 # zackexplosion.ng-loading
+
 simple angualrjs http loading effect
 
+![](http://i.imgur.com/OzH16jz.gifv)
 
 ## installation
 
