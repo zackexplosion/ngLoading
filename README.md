@@ -13,7 +13,7 @@ bower install zackexplosion-ngLoading
 in your angular module
 
 
-### rails-assets
+### via rails-assets
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-zackexplosion-ngLoading'
