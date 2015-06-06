@@ -8,11 +8,12 @@ simple angualrjs http loading effect
 npm install
 ```
 
-
-and 
-
 ```
 gulp
 ```
 
-then , just try to edit the *sass/zackexplosion.ng-loading.scss* !
+
+then , open the bower with `http://localhost:8080/`
+
+
+just try to edit the *sass/zackexplosion.ng-loading.scss* !
