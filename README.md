@@ -49,7 +49,7 @@ angular
 ])
 ```
 
-And add the following tag in your root html template, right after body tag
+And add the following tag in your root html template, right after `body` tag:
 
 ```html
 <body>
@@ -58,6 +58,8 @@ And add the following tag in your root html template, right after body tag
 </div>
 ...
 ```
+
+If you have any ajax request, the circle effect should pop up when loading ajax.
 
 ## Contribute
 
