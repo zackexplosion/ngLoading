@@ -1,5 +1,5 @@
 angular
-.module('zackexplosion.ng-loading',[])
+.module('zackexplosion-ngLoading',[])
 .config(
 [       '$locationProvider', '$httpProvider',
 function($locationProvider,   $httpProvider) {
