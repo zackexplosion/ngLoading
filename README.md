@@ -45,7 +45,10 @@ put this tag in your root html file, after body tag
 
 ```
 <body>
-  <div id="zackexplosion-ng-loading" data-ng-show="zackexplosion_loading" class="whirly-loader">Loading…</div>
+<div id="zackexplosion-ng-loading" data-ng-show="zackexplosion_loading" class="whirly-loader">Loading…</div>
+  
+  
+  
 ....
 ...
 
