@@ -5,8 +5,8 @@
     "Tony's Hackintosh <cstony0917@gmail.com>"
   ],
   "main": [
-    'js/zackexplosion.ng-loading.js',
-    'css/zackexplosion.ng-loading.css'
+    'js/zackexplosion-ngLoading.js',
+    'css/zackexplosion-ngLoading.css'
   ],
   "description": "an angularjs http loading effect",
   "keywords": [
