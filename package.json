@@ -1,20 +1,26 @@
 {
-  "name": "zackexplosion.ng-loading",
+  "name": "zaexplosion.loading",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple angualrjs http loading effect",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp-compass": "^2.1.0",
     "gulp": "^3.9.0",
-    "gulp-sass": "^2.0.1",
-    "gulp-connect": "^2.2.0"
+    "gulp-connect": "^2.2.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-sass": "^2.0.1"
   },
-  "devDependencies": {
-    "gulp-compass": "^2.1.0",    
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cstony0917/zackexplosion.ng-loading.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cstony0917/zackexplosion.ng-loading/issues"
+  },
+  "homepage": "https://github.com/cstony0917/zackexplosion.ng-loading"
 }
